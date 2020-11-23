@@ -40,9 +40,10 @@ tstep = .000005
 textra = .03 #for smoothing out convolutions. Should be at least .02; .03 is better
 extraNum = round(textra / tstep) #extra number of time steps due to textra
 
+#2 is L coil current source, 3 is eddy currents in vacuum chamber walls, 5 is laser rangefinders
 #CAUTION: Don't set any of w2,w3,w5 the same as another
-w2 = 500.        #1/s
-w3 = 314.        #1/s
+w2 = 250.        #1/s
+w3 = 500.        #1/s
 w5 = 4550.       #1/s
 gamma2 = 25.     #A/V
 gamma5 = 100./3. #V/m
