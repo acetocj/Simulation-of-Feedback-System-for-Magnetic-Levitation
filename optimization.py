@@ -40,7 +40,7 @@ zoff = 0.061 #offset between laser rangefinder and center of L coil, minus half 
 #(measurement of laser rangefinder is different from actual F coil position below L coil)
 ilo = 39. #equilibrium L coil current (amps) depends on F coil current; can be calculated
 
-#initial values: [z, dz/dt]
+#initial values: [z, dz/dt], where z is distance below center of L coil, meters
 init = np.array([[.24, 0.]])
 
 #seconds, tfinal/tstep should be integer
