@@ -242,6 +242,6 @@ plt.show()
 
 #sound to signal completion
 winsound.Beep(440,200)
-winsound.Beep(528,200)
+winsound.Beep(520,200)
 winsound.Beep(660,200)
-winsound.Beep(792,200)
+winsound.Beep(777,200)
