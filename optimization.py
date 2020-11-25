@@ -257,6 +257,6 @@ print([R63,pmid,timeTo1,init[0][0],init[0][1]])
 
 #sound to signal completion
 winsound.Beep(440,200)
-winsound.Beep(528,200)
+winsound.Beep(520,200)
 winsound.Beep(660,200)
-winsound.Beep(792,200)
+winsound.Beep(777,200)
